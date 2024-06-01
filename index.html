@@ -1,0 +1,189 @@
+<html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Móvel</title>
+  <link rel="stylesheet" href="styles.css">
+
+    <title>La Petit Biscuit </title>
+    <style>
+	.small-text {
+            font-size: 38%;
+        }	
+        body {
+            font-family: Verdana, sans-serif;
+		color: white ;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right,#00CED1, #4B0082);
+        
+        header {
+         	background: linear-gradient(to right, #00FFFF, #4B0082); 
+   	 	color: white ; 
+   	 	padding: 30px;
+   	 	text-align: center;
+		
+		
+        }
+        nav {
+            background-color: #483D8B;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 60px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color:#483D8B;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+	 table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+		background-color: #483D8B;
+        }
+        th {
+            background-color: #191970;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><img src="Logo.png" height="40%" width="25%"</h1>
+   <p class="small-text">Criações únicas em biscuit para você</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A LaPetit Biscuit nasceu em 2019, fruto de uma paixão transformada em hobby pela porcelana fria. O interesse inicial em reproduzir personagens de desenhos animados no estilo Funko Pop evoluiu rapidamente, impulsionado pela curiosidade e dedicação. Ao compartilhar minhas criações no Instagram, as encomendas começaram a surgir, permitindo-me expandir para além dos modelos Pop e oferecer também encantadoras lembrancinhas para festas. Cada peça é feita com carinho e atenção aos detalhes, trazendo um toque especial para qualquer ocasião.</p>
+</section>
+
+<section id="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="product">
+        <img src="figura_decorativa.jpg.png" height="25%" width="25%" alt="Brook One Piece" class="product-image">
+        <p>Brook - One Piece</p> 
+    </div>
+<div class="product">
+        <img src="Yamato - One Piece.jpeg" height="25%" width="25%" alt="Yamato One Piece" class="product-image">
+        <p>Yamato - One Piece</p> 
+    </div>
+<div class="product">
+        <img src="Sabo.jpeg" height="25%" width="25%" alt="Sabo One Piece" class="product-image">
+        <p>Sabo - One Piece</p> 
+    </div>
+<div class="product">
+        <img src="Matilda.png" height="25%" width="25%" alt="Matilda" class="product-image">
+        <p>Matilda</p> 
+    </div>
+
+
+    <div class="product">
+        <img src="Venus.png" height="25%" width="25%" 
+	alt="Vênus" class="product-image">
+        <p>Nascimento de Vênus</p>
+    </div>
+    <div class="product">
+        <img src="Princesas.png" height="25%" width="25%" alt="Lembrancinhas" class="product-image">
+        <p>Lembrancinhas para diversas ocasiões</p>
+    </div>
+</section>
+
+<section id="Lista">
+
+<h2>Com o que trabalhamos</h2>
+<ul>
+    <li>Noivos em biscuit</li>
+    <li>Animais em biscuit</li>
+    <li>Boneco de personagens</li>
+<li>Chaveiros e lembrancinhas</li>
+</ul>
+
+</section>
+
+<section>
+<h2>Tabela de Tamanhos de Bonecos de Biscuit</h2>
+
+<table>
+    <tr>
+        <th>Tamanho</th>
+        <th>Altura</th>
+        <th>Descrição</th>
+    </tr>
+    <tr>
+        <td>Pequeno</td>
+        <td>5 cm</td>
+        <td>Ideal para lembrancinhas e chaveiros.</td>
+    </tr>
+    <tr>
+        <td>Médio</td>
+        <td>10 cm</td>
+        <td>Perfeito para decoração de bolos e mesas.</td>
+    </tr>
+    <tr>
+        <td>Grande</td>
+        <td>15 cm</td>
+        <td>Excelente para presentes e peças centrais.</td>
+    </tr>
+</table>
+</section>
+
+<section id="contato">
+    <h2>Entre em Contato</h2>
+    <p>Para encomendas ou mais informações, entre em contato conosco:</p>
+    <p> Visite nosso perfil no  
+ <a href="https://www.instagram.com/lapetitbiscuit/" target="_blank">Instagram</a> </p>
+    <p>Email profissional: <a href="mailto:lapetitbiscuit4@gmail.com" target="_blank">lapetitbiscuit4@gmail.com</a></p>
+	<p> WhatsApp: 73 98806-0488</p>
+</section>
+
+
+
+<footer>
+        <p>&copy; 2024 LaPetit Biscuit. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+        window.addEventListener('scroll', function() {
+            var footer = document.querySelector('footer');
+            if (window.scrollY > 100) { // Ajuste o valor conforme necessário
+                footer.style.display = 'none';
+            } else {
+                footer.style.display = 'block';
+            }
+        });
+   	 </script>
+
+</body>
+</html>
